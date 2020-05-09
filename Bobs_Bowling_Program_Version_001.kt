@@ -80,7 +80,7 @@ fun main (args: Array<String>) {
     //val potentialNumberOfFrames = 4
 
     //For improved scores substitute the code below with the code above.
-    //It the number of frames to 4 frame game and the number of pins to 5000 for a possible 20,000 point scoring game.
+    //It sets the number of frames to 4 frame game and the number of pins to 5000 for a possible 20,000 point scoring game.
 
     val pinAmountPerFrame = 10
     val potentialNumberOfFrames = 12
