@@ -15,7 +15,7 @@
 // Array, random numbers, logic, syntax, null values, nullable types, functions, default function values, classes, objects, try and catch,
 // screen input and screen output examples are shown in this code.
 // Variable names are semi-self descriptive to show their purpose.
-// Question marks in the code are the Kotlin way setting null values. For reasons that will be easier to understand by writing some code yourself
+// Question marks in the code are the Kotlin way of setting null values. For reasons that will be easier to understand by writing some code yourself
 // null values are a often good option to use in Kotlin code, and depending on what the code is for, it is sometimes necessary to use null values in Kotlin
 // Variable names in Kotlin can (and) usually do have computer address numbers. The address numbers are not usually displayed or known to the programmer
 // The address numbers are the computer memory location of where the value (or more broadly object) is that the variable refers to
