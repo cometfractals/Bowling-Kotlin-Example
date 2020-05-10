@@ -70,9 +70,9 @@ fun main (args: Array<String>) {
     //For example a game could be set to have 5000 pins and 3 frames.
     //It is recommended that the potentialNumberOfFrames be set to 3 or more and the number of pinAmountPerFrame to be 1 or greater
     //for the score keeping algorithm to tabulate normally.
-    //For a standard 10 Frame game set the potentialNumberOfFrames to 12. This will create an Array of 12 Frames that being 10 Frames
-    //along with an extra 2 frames in case a strike or spare is bowled on the (potentialNumberOfFrames - 2) frame
-    //Array elements are numbered beginning with the number zero (not one)
+    //For a standard 10 Frame game set the potentialNumberOfFrames to 12. This will create an Array of 12 BowlingFrame's,
+    //that being 10 Frames along with an extra 2 frames in case a strike or spare is bowled on the (potentialNumberOfFrames - 2) frame
+    //Array elements are numbered beginning with the number zero (not one).
     //game[0] is the first element of the array of "BowlingFrame"s. game[1] is the second element of the array of "BowlingFrame"s
     //This offset of "1" should be kept in mind when writing code but all code writing encounters some errors due to this offset
 
@@ -80,7 +80,7 @@ fun main (args: Array<String>) {
     //val potentialNumberOfFrames = 4
 
     //For improved scores substitute the code below with the code above.
-    //It sets the number of frames to 4 frame game and the number of pins to 5000 for a possible 30,000 point scoring game.
+    //It sets the number of frames to a 4 frame game and the number of pins to 5000 for a possible 30,000 point scoring game.
 
     val pinAmountPerFrame = 10
     val potentialNumberOfFrames = 12
