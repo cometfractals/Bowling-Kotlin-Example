@@ -28,7 +28,7 @@
 // For example 'x = 6' or 'x = 100' but that number value (6 or 100 in these examples)
 // will now be stored at address (or location) 1f8c03ba instead of the number 5
 // If a place is in memory is needed for a number value but it isn't yet known what the number will be, a null value can be used in place of a number
-// The next line sets an integer variable call 'x' equal to null
+// The next line sets an integer variable named 'x' equal to null
 
 // var x: Int? = null
 
