@@ -86,7 +86,9 @@ fun main (args: Array<String>) {
     val potentialNumberOfFrames = 12
 
     //This is an example of how to set up an empty (or null) array in Kotlin which can be filled in with values as the program runs
-    //It is also the basis of this example program
+    //It is also the basis of this example program. This line of code sets up a collection of 12 objects. The collection is givien the
+    //name game. The programming word for this sort of a colletion is an 'array'. The objects in this example are BowlingFrames and they
+    //are set to empty. The programming word for an empty object is 'null'.
     val game = arrayOfNulls<BowlingFrame?>(potentialNumberOfFrames)
 
     //The game score
